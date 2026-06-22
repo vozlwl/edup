@@ -1,0 +1,266 @@
+a,
+b,
+body,
+button,
+code,
+dd,
+dl,
+dt,
+em,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+i,
+input,
+li,
+ol,
+p,
+strong,
+td,
+textarea,
+th,
+u,
+ul {
+    font-style: normal;
+    letter-spacing: -0.25;
+    margin: 0;
+    padding: 0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+strong {
+    font-weight: 700
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box
+}
+
+button,
+fieldset,
+iframe,
+img {
+    border: 0
+}
+
+li,
+ul {
+    list-style: none
+}
+
+input[type=password],
+input[type=text],
+textarea {
+    outline: 0
+}
+
+button,
+input,
+label,
+select,
+textarea {
+    vertical-align: middle
+}
+
+button,
+input,
+textarea {
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit
+}
+
+input[type=password] {
+    font-family: inherit
+}
+
+select {
+    -webkit-appearance: none;
+    color: inherit;
+    font-size: inherit;
+    line-height: inherit
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:active,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:hover {
+    -webkit-transition: background-color 5000s;
+    transition: background-color 5000s
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    --tw-ring-shadow: none !important;
+    outline: none !important
+}
+
+a:disabled,
+button:disabled,
+input:disabled,
+label:disabled,
+select:disabled,
+textarea:disabled {
+    cursor: default
+}
+
+a,
+button,
+label,
+select {
+    cursor: pointer
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    table-layout: auto;
+    width: 100%
+}
+
+legend {
+    font-size: 1px;
+    height: 1px;
+    margin-top: -1px;
+    overflow: hidden;
+    text-indent: -9999px;
+    visibility: hidden;
+    width: 1px
+}
+
+a {
+    color: inherit
+}
+
+a,
+a:focus,
+a:hover,
+a:visited {
+    text-decoration: none
+}
+
+a>img {
+    display: block
+}
+
+button {
+    background: none;
+    outline: 0;
+    overflow: visible;
+    text-align: inherit
+}
+
+button,
+code {
+    font-family: inherit
+}
+
+code {
+    color: inherit;
+    display: inline;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit
+}
+
+html {
+    -webkit-text-size-adjust: none;
+    font-size: 14px;
+}
+
+body {
+    color: #323946;
+    font-family: Pretendard;
+    font-size: inherit !important;
+    font-weight: 400;
+    line-height: 1;
+    word-break: break-word
+}
+
+[multiple]:focus,
+[type=date]:focus,
+[type=datetime-local]:focus,
+[type=email]:focus,
+[type=month]:focus,
+[type=number]:focus,
+[type=password]:focus,
+[type=search]:focus,
+[type=tel]:focus,
+[type=text]:focus,
+[type=time]:focus,
+[type=url]:focus,
+[type=week]:focus,
+select:focus,
+textarea:focus {
+    --tw-ring-color: transperent
+}
+
+.blind {
+    color: transparent !important;
+    font-size: 1px !important;
+    height: 1px !important;
+    opacity: 0 !important;
+    position: absolute !important;
+    text-indent: -9999px !important;
+    visibility: hidden !important;
+    width: 1px !important
+}
+
+.fl {
+    float: left !important
+}
+
+.fr {
+    float: right !important
+}
+
+.del {
+    text-decoration: line-through
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0
+}
+
+input[type=number] {
+    -moz-appearance: textfield
+}
+
+::-webkit-scrollbar {
+    height: 10px;
+    width: 10px
+}
+
+::-webkit-scrollbar-thumb {
+    background-clip: padding-box;
+    background-color: #0755D3;
+    border: 2px solid transparent;
+    border-radius: 10px
+}
+
+::-webkit-scrollbar-track {
+    background-color: #303030
+}
